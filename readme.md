@@ -1,0 +1,1 @@
+This is a copy of of the blog available at www.modularpilot.co.uk. My intention is to use it to learn more about front end web development.

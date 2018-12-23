@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,600');
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+* {
+	font-family: "Libre Franklin", "Helvetica Neue";
+	box-sizing: border-box;
+}
+
+header {
+	height: 9.2em;
+	padding: 2.4em 0em 2.4em 0em;
+	background-color: #FAFAFA;
+	box-sizing: border-box;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.wrap {
+	position: relative;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	width: 74%;
+	max-height: 100%;
+	padding-left: 2.4em;
+	padding-right: 2.4em;
+}
+
+header>div>a {
+	padding: 0em 1.53em 0em 0em;
+	display: inline-block;	
+}
+
+header>div>a>img {
+	max-width: 240px;
+}
+
+header>div>span {
+	position: relative;
+	bottom: 1.95em;
+	color: #666666;
+	font-size: 16px;
+	clear: right;
+	display: inline-block;
+}
+
+nav {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+nav li {
+	font-size: 16px;
+	display: inline-block;
+}
+
+nav ul {
+	padding-inline-start: 0em;
+	margin: 0em 0em;
+	position: relative;
+	left: 0.05em;
+}
+
+nav a {
+	font-family: "Libre Franklin";
+	font-weight: 600;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 1em 1.2em;
+	color: #222;
+	transition: 0.2s;
+	position: relative;
+	top: -0.1em;
+}
+
+nav>div {
+	padding: 1.15em 1.4em !important;
+}
+
+nav a:hover {
+	color: #767676;
+}
+
+.current-nav-page {
+	color: #767676;
+}
+
+#categories-chevron {
+	position: relative;
+	top: 0.17em;
+	left: 0.35em;
+	fill: currentColor;
+}
