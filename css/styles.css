@@ -50,11 +50,13 @@ header>div>span {
 nav {
 	background-color: #FFFFFF;
 	border-bottom: 1px solid #EEEEEE;
+	/* overflow: visible; */
 }
 
 nav li {
 	font-size: 16px;
 	display: inline-block;
+	position: relative;
 }
 
 nav ul {
@@ -93,4 +95,18 @@ nav a:hover {
 	top: 0.17em;
 	left: 0.35em;
 	fill: currentColor;
+}
+
+#categories-submenu {
+	/* display: block; */
+	min-width: 12em;
+	display: none;
+	position: absolute;
+	/* display: block; */
+	/* background-color: red; */
+}
+
+#categories-dropdown:hover ~ #categories-submenu, #categories-submenu:hover {
+	display: block;
+	background-color: red;
 }
